@@ -7,7 +7,7 @@ router.post("/", (req, res) => {
   //   console.log(data.new_server);
   // data.resource = data.new_server;
   // delete data.new_server;
-  console.log(data);
+  console.log("Here \n"+data);
   const header = {
     "Content-Type": "application/json",
   };
