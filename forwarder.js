@@ -5,9 +5,9 @@ const axios = require("axios");
 router.post("/", (req, res) => {
   let data = req.body;
   //   console.log(data.new_server);
-  data.resource = data.new_server;
-  delete data.new_server;
-  console.log(data.resource);
+  // data.resource = data.new_server;
+  // delete data.new_server;
+  console.log(data);
   const header = {
     "Content-Type": "application/json",
   };
@@ -19,7 +19,7 @@ router.post("/", (req, res) => {
     data: req.body,
   })
     .then((result) => {
-      console.log(result);
+      // console.log(result);
     })
     .catch((err) => {
       console.log(err);
