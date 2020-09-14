@@ -7,7 +7,8 @@ router.post("/", (req, res) => {
   //   console.log(data.new_server);
   // data.resource = data.new_server;
   // delete data.new_server;
-  console.log("Here \n"+data);
+  console.log("here");
+  console.log(data);
   const header = {
     "Content-Type": "application/json",
   };
@@ -22,7 +23,7 @@ router.post("/", (req, res) => {
       // console.log(result);
     })
     .catch((err) => {
-      console.log(err);
+      // console.log(err);
     });
 });
 module.exports = router;
