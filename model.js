@@ -1,0 +1,3 @@
+processdata =(data)=>{
+    data.
+}
